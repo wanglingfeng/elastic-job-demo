@@ -1,0 +1,7 @@
+elastic.job:
+  serverLists: yourhost:2181
+  namespace: elastic-job
+  default:
+    cron:
+    shardingTotalCount:
+    shardingItemParameters:
